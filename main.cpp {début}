@@ -1,0 +1,27 @@
+// Modifier le code suivant pour afficher les messages demandés
+
+#include <iostream>
+
+// using std::cout; // Eviter les "std::cout << "" << std::endl;
+
+int main() {
+    // Modifier la ligne suivante pour afficher "Bienvenue tout le monde !"
+    std::cout << "Hello, world!" << std::endl;
+    
+    // Ajouter UNE ligne pour afficher "Bienvenue !" et "Tout le monde !" sur DEUX lignes
+    std::cout << "Bienvenue" << std::endl;
+    std::cout << "Tout le monde" << std::endl;
+    
+    // Ajouter DEUX lignes pour afficher "Bienvenue !" et "Tout le monde !" sur UNE ligne
+    std::cout << "Bienvenue";
+    std::cout << "Tout le monde" << std::endl;
+    
+    // AUTRE 
+  std::cout << "+--------------+" << std::endl;
+  std::cout << "¦ 12 ¦ 34 ¦ 56 ¦" << std::endl;
+  std::cout << "+----+----+----¦" << std::endl;
+  std::cout << "¦ ab ¦ cd ¦ ef ¦" << std::endl;
+  std::cout << "+--------------+" << std::endl;
+  
+    return 0; // FILE : http://coliru.stacked-crooked.com/a/c69a316c7ebf6e80
+}
